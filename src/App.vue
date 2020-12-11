@@ -1,28 +1,38 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ocr/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Ocr from './components/Ocr.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Ocr
   }
 }
 </script>
 
 <style>
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  
+  min-height: 100vh;
+}
+body{
+  background-color: #fff !important;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  height: 100%;
+ font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 30px;
 }
+
 </style>
