@@ -1,6 +1,6 @@
 # OCR Vue Webapp
 This is a web app used for Optical Image Recognition made in Vue.js and Tesseract API.
-You can view the demo here.
+You can view the demo [here](vue-ocr-app.netlify.app).
 
 ## Usage Instructions
 ### Installing Dependencies
