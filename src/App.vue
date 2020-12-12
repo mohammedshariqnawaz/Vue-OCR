@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <ocr/>
+    <footer class="mt-2"> <p style="font-size:10px;"><a href="https://github.com/mohdshariqnawaz/Vue-OCR">Github Code</a> | Made by <a href="https://github.com/mohdshariqnawaz">Mohammed Shariq Nawaz</a></p></footer>
   </div>
 </template>
 

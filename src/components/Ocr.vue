@@ -2,7 +2,7 @@
   <div class="container ">
     <div class="row ml-5 mr-5 ">
       <div class="col-md-12">
-        <h1 class="display-4 text-center ">OCR WebApp</h1>
+        <h1 class="display-5 text-center ">OCR WebApp</h1>
       </div>
       <div class="col-md-12">
         <h5 class="text-left"><strong> Upload Image </strong></h5>
